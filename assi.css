@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Red Rose', cursive;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 28.5), rgba(0, 0, 0, -1.5)),
+    url("pexels-maxyne-barcel-10402282 1.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* =====NAVBAR==== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-attachment: fixed;
+  padding: 0 60px 0 60px;
+  margin-top: 55px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffc233;
+    font-family: 'Red Rose', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+.list  :hover{
+    font-size: xx-large;
+    color: #ffc233;
+    cursor: pointer;
+    
+
+}
+
+.logo,
+list-item{
+    cursor: pointer;
+}
+.logo , list-itme:hover{
+    color: #ff505f;
+    cursor: pointer;
+}
+
+.button-small {
+    border-radius: 0 12px;
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Red Rose', cursive;
+}
+.button-small:hover{
+    box-shadow:  0 5px 37px 13px rgb(255, 255, 255);
+}
+
+
+/* ======Hero==== */
+.hero{
+  max-width: 1154px;
+  margin: auto;
+  text-align: center;
+  margin-top: 119px;
+}
+
+.hero-heading {
+    font-family: ;
+    font-size: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 114px;
+/* or 110%  */
+color: #ffc233;
+font-family: 'Dela Gothic One', cursive;
+
+}
+
+.button-large{
+    border-radius: 0 12px;
+    background: #ff505f;
+    font-family: ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+ .button-large:hover{
+    box-shadow: 0 5px 37px 13px black;
+    font-size: xx-large;
+ }
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.food{
+    display: block;
+    size: 50%;
+    box-shadow: ;
+}
